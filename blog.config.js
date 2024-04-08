@@ -275,10 +275,64 @@ const BLOG = {
       name: '春日影',
       artist: 'CRYCHIC',
       url: 'https://music.163.com/song/media/outer/url?id=2096126417.mp3',
-      cover: 'https://postimg.cc/yWWKMSkG'
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+    {
+      name: '輪符雨',
+      artist: 'MyGO!!!!!',
+      url: 'https://music.163.com/song/media/outer/url?id=2131012687.mp3',
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+    {
+      name: '迷星叫',
+      artist: 'MyGO!!!!!',
+      url: 'https://music.163.com/song/media/outer/url?id=1831400602.mp3',
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+     {
+      name: '壱雫空',
+      artist: 'MyGO!!!!!',
+      url: 'https://music.163.com/song/media/outer/url?id=2060086839.mp3',
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+     {
+      name: '碧天伴走',
+      artist: 'MyGO!!!!!',
+      url: 'https://music.163.com/song/media/outer/url?id=2074119582.mp3',
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+     {
+      name: '処救生',
+      artist: 'MyGO!!!!!',
+      url: 'https://music.163.com/song/media/outer/url?id=2102378407.mp3',
+      cover: 'https://i.postimg.cc/FFVKJymh/IMG-20240407-171533.jpg'
+    },
+    {
+      name: '週末京都現実逃避',
+      artist: 'しゃろう',
+      url: 'https://music.163.com/song/media/outer/url?id=124876241.mp3',
+      cover: 'http://p2.music.126.net/S_IgDfLGJmtey4kqgkixbQ==/109951165825156418.jpg?param=177y177'
+    },
+    {
+      name: '2:23 AM',
+      artist: 'しゃろう',
+      url: 'https://music.163.com/song/media/outer/url?id=1831400576.mp3',
+      cover: 'http://p2.music.126.net/i5aIjREvA-gTEn35Izzgng==/109951165825162706.jpg?param=130y130'
+    },
+    {
+      name: 'ローファイ少女は今日も寝不足',
+      artist: 'しゃろう',
+      url: 'https://music.163.com/song/media/outer/url?id=1898812547.mp3',
+      cover: 'http://p2.music.126.net/Ho_eClsycrQKRUsO76iT_A==/109951166667212789.jpg?param=130y130'
+    },
+    {
+      name: '野良猫は宇宙を目指した',
+      artist: 'しゃろう',
+      url: 'https://music.163.com/song/media/outer/url?id=1831400602.mp3',
+      cover: 'http://p1.music.126.net/yb9yOonOxNPMqoI3SRRF8A==/109951165825156366.jpg?param=130y130'
     },
   ],
-  MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || true, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
+  MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
   MUSIC_PLAYER_METING_ID: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '8583100884', // 对应歌单的 id
   MUSIC_PLAYER_METING_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_LRC_TYPE || '1', // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
