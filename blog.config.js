@@ -276,7 +276,7 @@ const BLOG = {
       artist: '咲々木瞳',
       url: 'https://music.163.com/song/media/outer/url?id=1675318324.mp3',
       cover: 'https://p1.music.126.net/jzyNxHsBdd8KljEt5Z73xw==/109951168616358817.jpg?param=130y130',
-      lrc:'/public/lrc/Like a Shooting Star - 咲々木.lrc'
+      lrc:'/public/lrc/LSS.lrc'
     },
     {
       name: '春日影',
