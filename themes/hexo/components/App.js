@@ -1,7 +1,7 @@
 import Adpic from "./Adpic";
 import ANIAdmire from "./float";
 
-export default function APP() {
+export default function uma() {
   return (
     <>
       <Adpic />
