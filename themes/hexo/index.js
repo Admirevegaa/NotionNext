@@ -132,8 +132,7 @@ const LayoutBase = props => {
             {/* 悬浮菜单 */}
             <RightFloatArea floatSlot={floatSlot} />
 
-            {/* 好康的 */}
-           <Admire />
+            
                
             {/* 全文搜索 */}
             <AlgoliaSearchModal cRef={searchModal} {...props}/>
