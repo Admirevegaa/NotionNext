@@ -32,7 +32,7 @@ import { Style } from './style'
 import replaceSearchResult from '@/components/Mark'
 import { siteConfig } from '@/lib/config'
 import dynamic from 'next/dynamic'
-import APP from './components/App'
+import Uma from './components/Uma'
 
 const AlgoliaSearchModal = dynamic(() => import('@/components/AlgoliaSearchModal'), { ssr: false })
 
@@ -99,7 +99,7 @@ const LayoutBase = props => {
 
             {/*马娘组件*/}
             <div>
-                <APP />
+                <Uma />
             </div>
 
             {/* 主区块 */}
