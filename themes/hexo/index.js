@@ -122,6 +122,8 @@ const LayoutBase = props => {
 
                     {/* 右侧栏 */}
                     <SideRight {...props} className={`space-y-4 lg:w-80 pt-4 ${post ? 'lg:pt-0' : 'lg:pt-4'}`} />
+
+                    <Admire />
                 </div>
             </main>
 
@@ -132,7 +134,7 @@ const LayoutBase = props => {
             {/* 悬浮菜单 */}
             <RightFloatArea floatSlot={floatSlot} />
 
-            <Admire />
+            
 
             {/* 全文搜索 */}
             <AlgoliaSearchModal cRef={searchModal} {...props}/>
