@@ -5,7 +5,7 @@ export default function Uma() {
   return (
     <>
       <Adpic />
-      <ANIAdmire />
+      //<ANIAdmire />
     </>
   );
 }
