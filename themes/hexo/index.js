@@ -96,7 +96,9 @@ const LayoutBase = props => {
             >
                 {headerSlot}
             </Transition>
-
+            <div id="admire" >
+                  <Admire />
+            </div>
             {/* 主区块 */}
             <main id="wrapper" className={`${siteConfig('HEXO_HOME_BANNER_ENABLE', null, CONFIG) ? '' : 'pt-16'} bg-hexo-background-gray dark:bg-black w-full py-8 md:px-8 lg:px-24 min-h-screen relative`}>
                 <div id="container-inner" className={(JSON.parse(siteConfig('LAYOUT_SIDEBAR_REVERSE')) ? 'flex-row-reverse' : '') + ' w-full mx-auto lg:flex lg:space-x-4 justify-center relative z-10'} >
@@ -123,7 +125,7 @@ const LayoutBase = props => {
                     {/* 右侧栏 */}
                     <SideRight {...props} className={`space-y-4 lg:w-80 pt-4 ${post ? 'lg:pt-0' : 'lg:pt-4'}`} />
 
-                    <Admire />
+                   
                 </div>
             </main>
 
