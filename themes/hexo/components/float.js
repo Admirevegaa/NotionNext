@@ -2,15 +2,10 @@ import React, { Component } from 'react';
   
 
 function ANIAdmire() {
-  class RefsExample extends Component { 
-    constructor(props) { 
-        super(props); 
-        this.admire = React.createRef(); 
-        } 
-
+  
   let count = 0;
   let flag = true; //判断素材状态
-  let img = this.admire.current;
+  let img = document.getElementById("admire");
   img.style.AnimationPlayState = "paused"; //动画初始状态为停止
 
   function myEndFunction() {
