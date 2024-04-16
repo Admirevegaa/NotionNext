@@ -132,9 +132,7 @@ const LayoutBase = props => {
             <RightFloatArea floatSlot={floatSlot} />
 
             {/* 好康的 */
-            <img id="admire"
-             src="https://patchwiki.biligame.com/images/umamusume/0/08/7u6ud327zarqitc9i49ftudknxzw674.png"
-            />
+           
                
             {/* 全文搜索 */}
             <AlgoliaSearchModal cRef={searchModal} {...props}/>
