@@ -1,4 +1,4 @@
-export default function Admire() {
+export default function Adpic() {
   return (
       <img
         id="admire"
