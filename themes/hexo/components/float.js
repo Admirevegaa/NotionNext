@@ -1,11 +1,13 @@
 import React, { Component } from 'react'; 
   
-class RefsExample extends Component { 
+
+function ANIAdmire() {
+  class RefsExample extends Component { 
     constructor(props) { 
         super(props); 
         this.admire = React.createRef(); 
         } 
-export default function ANIAdmire() {
+
   let count = 0;
   let flag = true; //判断素材状态
   let img = this.admire.current;
