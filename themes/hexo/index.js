@@ -32,6 +32,7 @@ import { Style } from './style'
 import replaceSearchResult from '@/components/Mark'
 import { siteConfig } from '@/lib/config'
 import dynamic from 'next/dynamic'
+import { Admire } from 'themes/hexo/components/Admire.js'
 
 const AlgoliaSearchModal = dynamic(() => import('@/components/AlgoliaSearchModal'), { ssr: false })
 
