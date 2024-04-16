@@ -1,6 +1,6 @@
 export default function Admire() {
     return (
-    <img src="https://patchwiki.biligame.com/images/umamusume/2/20/o9e5yn4nvsm4lf8zon22bin9l7rrauk.png" width={256} height={256} />
+    <img src="https://patchwiki.biligame.com/images/umamusume/2/20/o9e5yn4nvsm4lf8zon22bin9l7rrauk.png"/>
     );
   }
   
