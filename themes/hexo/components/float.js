@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
   
 
-function ANIAdmire() {
+export default function ANIAdmire() {
   
   let count = 0;
   let flag = true;//判断素材状态
