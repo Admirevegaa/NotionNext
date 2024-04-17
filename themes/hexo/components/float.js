@@ -1,18 +1,16 @@
+'use client';
 import React, { Component, useEffect } from 'react';
-
-  
 
 export default function ANIAdmire() {
   
   let count = 0;
   let flag = true;//判断素材状态
-   useEffect(() => {
-    let img = document.getElementById("admire");
+  let img: document.getElementById("admire");
   
   img.style.AnimationPlayState = "paused";//动画初始状态为停止
 
   function myEndFunction() {
-    img.style.animation = null
+  img.style.animation = null
   } //点击后设置动画为空，保证每次点击动画位置为初始状态
 
   img.addEventListener("click", function () {
@@ -37,4 +35,4 @@ export default function ANIAdmire() {
     }
   })
 }
-})
+
