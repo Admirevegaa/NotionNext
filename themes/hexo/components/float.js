@@ -3,7 +3,7 @@ export default function ANIAdmire() {
   
   let count = 0
   let flag = true//判断素材状态
-  let img: document.getElementById("admire")
+  let img= document.getElementById("admire")
   
   img.style.AnimationPlayState = "paused"//动画初始状态为停止
 
