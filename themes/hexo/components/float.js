@@ -8,7 +8,7 @@ export default function ANIAdmire() {
   let flag = true;//判断素材状态
    useEffect(() => {
     let img = document.getElementById("admire");
-  });
+  
   img.style.AnimationPlayState = "paused";//动画初始状态为停止
 
   function myEndFunction() {
@@ -37,3 +37,4 @@ export default function ANIAdmire() {
     }
   })
 }
+})
