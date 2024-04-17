@@ -1,4 +1,4 @@
-'use client';
+
 export default function ANIAdmire() {
   
   let count = 0
