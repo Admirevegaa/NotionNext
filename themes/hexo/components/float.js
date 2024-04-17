@@ -3,10 +3,12 @@ import React, { Component } from 'react'
 
 function ANIAdmire() {
   
-  let count = 0
-  let flag = true//判断素材状态
-  let img = isBrowser ? document.getElementById("admire")
-  img.style.AnimationPlayState = "paused"//动画初始状态为停止
+  let count = 0;
+  let flag = true;//判断素材状态
+   useEffect(() => {
+    let img = document.getElementById("admire");
+  });
+  img.style.AnimationPlayState = "paused";//动画初始状态为停止
 
   function myEndFunction() {
     img.style.animation = null
