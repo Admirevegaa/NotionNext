@@ -1,6 +1,5 @@
 
 import { useRef, useState } from 'react';
-import {motion} from "https://esm.sh/framer-motion@8.3.3";
 
 
 let count = 0;
@@ -37,38 +36,6 @@ function Admire() {
   }
   return (
     <div>
-    <div
-      style={{
-        display:'flex',
-        flexDirection:'column',
-        gap:30
-      }}
-      ></div>
-    <motion.div
-      style={{
-        width:256,
-        height:256,
-        position:'fixed',
-        display:'block',
-        left:-5,
-        bottom:100,
-        borderRadius:'20px'
-      }}
-      initial={{
-        rotateY:0
-      }}
-      animate={{
-          y:flag ? [0,-20,0] : [0,-21,0],
-          rotateY:flag ? [0,180]:[0,179],
-          transition:{
-            duration:0.5,
-            rotateY:{duration:1},
-          },
-          
-          
-        }}
-          
-      >
         <img
       onClick={handleChange}
       ref={imgRef}
@@ -76,7 +43,6 @@ function Admire() {
       src={address}
       alt=""
     />
-    </motion.div>
     </div>
   );
 }
