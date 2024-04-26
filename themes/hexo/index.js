@@ -99,7 +99,7 @@ const LayoutBase = props => {
 
             {/*马娘组件*/}
             <div>
-                <Admire />
+              {/*<Admire />*/}
             </div>
 
             {/* 主区块 */}
