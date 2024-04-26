@@ -1,6 +1,6 @@
 
 import { useRef, useState } from 'react';
-import {motion} from 'framer-motion'
+import {motion} from 'themes/hexo/components/frame-motion'
 
 
 let count = 0;
