@@ -1,0 +1,43 @@
+/* 设置为块，位置固定 */
+.admire{
+    position: fixed;
+    display: block;
+    left:-5px;;
+    bottom: 100px;
+    height: 256px;
+}
+
+/* 翻转动画 */
+@keyframes  gululu{
+    0%{
+        composite: rotateY(90deg)
+    }
+}
+
+/* 跳动动画 */
+@keyframes jump{
+    0%{
+        paint: rotateY(90deg)
+    }
+    20%{
+        margin: 00px 0px 10px 0px;
+    }
+    50%{
+        margin: 00px 0px 15px 0px;
+    }
+    70%{
+        margin: 0px 0px 10px 0px;
+    }
+}
+
+.admire:hover{
+    height: 265px;
+}
+
+.admire:active{
+    position: fixed;
+    display: block;
+    left:-5px;
+    bottom: 100px;
+    height: 256px;
+}
