@@ -1,6 +1,6 @@
 
 import { useRef, useState } from 'react';
-import "./admire_flo.css"
+
 
 let count = 0;
 let fakeaddress = 'p1.png'
