@@ -16,6 +16,7 @@
   z-index: 10;
   top: -1px;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   border-bottom-color: transparent;
 }
@@ -264,3 +265,4 @@ a.avatar-wrapper {
   writing-mode: vertical-rl; /* 竖向排列从右向左 */
   text-orientation: upright; /* 文字方向正常 */
 }
+

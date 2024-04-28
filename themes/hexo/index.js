@@ -243,7 +243,7 @@ const LayoutSlug = props => {
           const article = document.getElementById('notion-article')
           if (!article) {
             router.push('/404').then(() => {
-              console.warn('找不到页面', router.asPath)
+              console.warn('404了捏', router.asPath)
             })
           }
         }
@@ -300,7 +300,7 @@ const Layout404 = props => {
         const article = document.getElementById('notion-article')
         if (!article) {
           router.push('/').then(() => {
-            // console.log('找不到页面', router.asPath)
+            // console.log('404了捏', router.asPath)
           })
         }
       }
@@ -314,7 +314,7 @@ const Layout404 = props => {
                         404
                     </h2>
                     <div className="inline-block text-left h-32 leading-10 items-center">
-                        <h2 className="m-0 p-0">页面未找到</h2>
+                        <h2 className="m-0 p-0">404了捏</h2>
                     </div>
                 </div>
             </div>
