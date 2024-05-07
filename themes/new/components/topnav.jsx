@@ -1,5 +1,5 @@
-import styles from "/css/topnav.module.css"
-import "/css/topnav.css"
+import styles from "public/css/topnav.module.css"
+import "public/css/topnav.css"
 import Links from "./link"
 
 
